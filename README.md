@@ -7,7 +7,7 @@
 
 <h2>🐡 <a href="https://ohmyposh.dev/">ohmyposh</a></h2>
 
-<a href="https://github.com/bnshw/dots/blob/main/ohmyposh/omp-theme.ps1">switch</a> between <a href="https://ohmyposh.dev/docs/themes">themes</a> easily
+easily <a href="https://github.com/bnshw/dots/blob/main/ohmyposh/omp-theme.ps1">switch</a> between <a href="https://ohmyposh.dev/docs/themes">themes</a>
 <br>(you'll have to add the script to $PATH)
 <br>
 

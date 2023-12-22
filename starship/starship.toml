@@ -1,7 +1,7 @@
 # ~/.config/starship.toml
 
 format = '''
-[╭╴](238)$os$username$hostname$directory$git_branch$git_status$git_commit$rust$python$dotnet
+[╭╴](238)$os$username$hostname$directory$git_branch$git_status$git_commit$rust$python$dotnet$kotlin$java
 [╰─](238)$character '''
 
 right_format = '''$memory_usage'''
@@ -89,8 +89,8 @@ style = 'bold #f14e32'
 
 [git_status]
 conflicted = '🚩'
-ahead = '🏎💨 {ahead_count}'
-behind = '😰 {behind_count}'
+ahead = '🏎💨 ${count}'
+behind = '😰 ${count}'
 diverged = '😵⇡${ahead_count}⇣${behind_count}'
 up_to_date = '✅'
 untracked = '🤷'
@@ -134,6 +134,7 @@ style = "bold #ac340f"
 [dotnet]
 format = '\[[$symbol$version]($style)\]'
 style = "bold #5027d5"
+version_format = '${raw}'
 symbol = "🥅 "
 heuristic = false
 
@@ -143,6 +144,7 @@ style = "bold #f0911a"
 symbol = "☕ "
 
 [kotlin]
-format = '\[[$symbol$version]($style)\]'
+format = '\[[$symbol(${version} )]($style)\]'
+version_format = 'v${raw}'
 style = "bold #ca23ac"
 symbol = "🅺 "

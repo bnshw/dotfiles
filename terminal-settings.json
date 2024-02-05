@@ -56,17 +56,14 @@
                 "size": 12.0
             },
             "opacity": 0,
-            "unfocusedAppearance": 
-            {
-                "useAcrylic": true
-            },
+            "unfocusedAppearance": {},
             "useAcrylic": true
         },
         "list": 
         [
             {
                 "bellStyle": "none",
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
@@ -92,22 +89,34 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{1a1bcadb-763c-57c4-87b1-ffba1e23d6fe}",
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{3f3f4ffc-4deb-50c0-927f-a8387044505a}",
                 "hidden": false,
                 "name": "Developer Command Prompt for VS 2022 [Preview]",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "guid": "{79292765-0604-5a4d-bb00-c254cb43ab55}",
+                "guid": "{05f1d139-7349-5b5b-86cb-0f3631f6fc6b}",
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022 [Preview]",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "guid": "{e7207ab4-5942-5cb2-baa3-b545e5e370e1}",
                 "hidden": true,
-                "name": "Visual Studio Debug Console",
-                "source": "VSDebugConsole"
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{e6676015-9c79-5245-9c66-5beb83184c6a}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
